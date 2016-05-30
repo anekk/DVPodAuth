@@ -1,0 +1,6 @@
+framework module DVPodAuth {
+  umbrella header "DVPodAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}

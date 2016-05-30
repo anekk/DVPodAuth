@@ -1,0 +1,16 @@
+PODS:
+  - DVPodAuth (0.1.0)
+
+DEPENDENCIES:
+  - DVPodAuth (from `../`)
+
+EXTERNAL SOURCES:
+  DVPodAuth:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DVPodAuth: ad8ed92f2e353c47bae2ba438f8df7e7351de838
+
+PODFILE CHECKSUM: b2b1b3f45ccced7c293196dca9bc34dc852c03d2
+
+COCOAPODS: 1.0.0
