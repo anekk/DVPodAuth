@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DVPodAuth_Example' do
+  pod 'DVPodAuth', :path => '../'
+
+  target 'DVPodAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
