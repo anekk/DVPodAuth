@@ -1,9 +1,9 @@
 {
   "name": "DVPodAuth",
   "version": "0.1.0",
-  "summary": "A short description of DVPodAuth.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DVPodAuth",
+  "summary": "DVPodAuth testing pod creation.",
+  "description": "Developer is able to create his/her own framework with pod",
+  "homepage": "https://github.com/anekk/DVPodAuth",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "aslupska": "anna.slupska@digitalvirgo.pl"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DVPodAuth.git",
+    "git": "https://github.com/anekk/DVPodAuth.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DVPodAuth/Classes/**/*"
+  "source_files": "DVPodAuth/Classes/**/*",
+  "dependencies": {
+    "Firebase/Auth": [
+
+    ],
+    "ReactiveCocoa": [
+
+    ]
+  }
 }

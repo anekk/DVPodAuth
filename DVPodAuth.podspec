@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'DVPodAuth/Classes/**/*'
 
-
-  s.dependency 'Firebase/Auth'
-  s.dependency 'ReactiveCocoa'
+s.dependency 'Firebase/Auth'
+s.dependency 'ReactiveCocoa'
 
 end
